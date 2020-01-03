@@ -6,6 +6,10 @@ const postcss = require('gulp-postcss');
 const postcssPresetEnv = require('postcss-preset-env');
 const atImport = require('postcss-import');
 const postcssNesting = require('postcss-nesting');
+const purgecss = require('@fullhuman/postcss-purgecss');
+const purgecssWordpress = require('purgecss-with-wordpress');
+const cssnano = require('cssnano');
+
 
 // SASS
 gulp.task('sass', function() {
@@ -23,7 +27,17 @@ gulp.task('css', function() {
   .pipe(postcss([
     atImport(),
     postcssNesting(),
-    postcssPresetEnv()
+    postcssPresetEnv(),
+    // purgecss({
+    //   content: ['./src/*.liquid'],
+    // }),
+    cssnano({
+      preset: ['default', {
+        discardComments: {
+            removeAll: true,
+        },
+    }]
+    })
   ]))
   .pipe(gulp.dest('./src/assets/'));
 });
