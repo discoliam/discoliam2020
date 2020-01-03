@@ -1,0 +1,26 @@
+/* Elements */
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: var(--main);
+  color: var(--dark);
+}
+
+::-moz-selection {
+  background: var(--main);
+  color: var(--dark);
+}

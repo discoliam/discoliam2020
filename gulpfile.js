@@ -2,19 +2,30 @@ const gulp    = require("gulp");
 const sass    = require("gulp-sass");
 const svgSprite    = require("gulp-svg-sprite");
 const rename    = require("gulp-rename");
+const postcss = require('gulp-postcss');
+const postcssPresetEnv = require('postcss-preset-env');
+const atImport = require('postcss-import');
+const postcssNesting = require('postcss-nesting');
 
-
-
-
-
-// CSS
-gulp.task('css', function() {
+// SASS
+gulp.task('sass', function() {
   return gulp.src('./src/scss/app.scss')
     .pipe(sass({
       outputStyle: 'compressed'
     })
     .on('error', sass.logError))
     .pipe(gulp.dest('./src/assets/'));
+});
+
+// Post CSS
+gulp.task('css', function() {
+  return gulp.src('./src/css/app.css')
+  .pipe(postcss([
+    atImport(),
+    postcssNesting(),
+    postcssPresetEnv()
+  ]))
+  .pipe(gulp.dest('./src/assets/'));
 });
 
 // SVG
@@ -55,20 +66,12 @@ gulp.task('moveSvgSprite', function() {
 });
 
 
-
-
-
-
-
-/*
-  Watch folders for changess
-*/
+// Watch Folders for Changes
 gulp.task("watch", function() {
-  gulp.watch('./src/scss/**/*.scss', gulp.parallel('css'));
+  gulp.watch('./src/scss/**/*.scss', gulp.parallel('sass'));
+  gulp.watch('./src/css/**/*.css', gulp.parallel('css'));
   gulp.watch('./src/svgs/*.svg', gulp.series('generateSvgSprite', 'moveSvgSprite'));
 });
 
-/*
-  Let's build this sucker.
-*/
+// Build
 gulp.task('build', gulp.parallel('css', gulp.series('generateSvgSprite', 'moveSvgSprite') ));

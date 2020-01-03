@@ -1,0 +1,86 @@
+/* Header */
+.site-header {
+  & .site-title a{
+    font-family: var(--font-heading);
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+    font-size: 200px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    box-shadow: none;
+    transition: all var(--base-duration) var(--base-timing);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--alt);
+    & span{
+      -webkit-text-stroke-color: var(--main);
+    }
+    &:hover{
+      box-shadow: none;
+      -webkit-text-stroke-width: 5px;
+    }
+  }
+
+}
+
+
+
+/* Main */
+main{
+  border-top: solid 1px var(--main);
+  padding-top: 40px;
+}
+
+/* Previous Clinets */
+.previous-clients, .projects{
+  & ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    & li{
+      flex-basis: calc(25% - 54px);
+      margin: 0 27px;
+      & svg{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+
+/* Social */
+section.social{
+  text-align: center;
+  & nav{
+    & a{
+      display: inline-block;
+      box-shadow: none;
+      & svg{
+        width: 48px;
+        height: 48px;
+      }
+      &:hover{
+        color: var(--alt);
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+
+/* Footer */
+.site-footer{
+  & .container{
+    border-top: solid 1px var(--main);
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+

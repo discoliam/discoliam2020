@@ -1,0 +1,108 @@
+/* Tyography */
+
+/* Goole Import */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,800");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i");
+
+:root{
+  --font-regular: "Libre Baskerville", serif;
+  --font-heading: "Raleway", sans-serif;
+}
+
+/* Body */
+body {
+  font-family: var(--font-regular);
+  background-color: var(--dark);
+  color: var(--light);
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+p {margin-bottom: 1.15rem;}
+
+main h1, h2, h3, h4, h5{
+  font-family: var(--font-heading);
+  margin: 2.75rem 0 1.05rem;
+  font-weight: 800;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--main);
+  letter-spacing: 2px;
+}
+
+h2,h3,h4,h5{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--main);
+}
+
+main h1 {
+  font-size:5em;
+  margin-top: 0;
+  color: var(--alt);
+}
+
+h2 {font-size: 3.998em; margin-top: 0;}
+
+h3 {font-size: 2.827em;}
+
+h4 {font-size: 1.999em;}
+
+h5 {font-size: 1.414em;}
+
+small, .text_small, .site-footer {font-size: 0.707em;}
+
+
+.lead{
+  font-family: var(--font-heading);
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 800;
+  & span{
+    color: var(--alt);
+  }
+}
+
+nav{
+  & a{
+    font-family: var(--font-heading);
+    letter-spacing: 1px;
+    display: inline-block;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0 10px;
+    line-height: 1;
+    &:hover{
+      color: var(--dark);
+      box-shadow: inset 0px -1.5rem 0px 0px var(--alt);
+    }
+  }
+}
+
+/* Bold */
+strong {
+  font-weight: 800;
+}
+
+/* Italic */
+em,
+i {
+  font-style: italic;
+}
+
+/* Links */
+a {
+  color: var(--main);
+  text-decoration: none;
+  font-style: italic;
+  transition: color var(--base-duration) var(--base-timing),
+    box-shadow var(--base-duration) var(--base-timing);
+    box-shadow: inset 0px -0.1rem 0px 0px var(--alt);
+  &:hover {
+    box-shadow: inset 0px -1.5rem 0px 0px var(--alt);
+    color: var(--dark);
+  }
+}
