@@ -1,0 +1,50 @@
+// ------------------------------------------------------------
+// Elements
+// ------------------------------------------------------------
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  &::after{
+  //   background-image: linear-gradient(
+  //   135deg,
+  //   $alt 0%,
+  //   $alt 50%,
+  //   $dark 80%,
+  //   $dark 100%
+  // );
+  content: "";
+  // background-color: $alt;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: block;
+  mix-blend-mode: overlay;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $main;
+  color: $dark;
+}
+
+::-moz-selection {
+  background: $main;
+  color: $dark;
+}

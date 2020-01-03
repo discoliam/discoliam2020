@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+
+  {% include htmlHeder %}
+
+  <body>
+    {% include spriteSVG %}
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    {% include header %}
+    <main>
+      {{ content }}
+    </main>
+    {% include footer %}
+  </body>
+</html>

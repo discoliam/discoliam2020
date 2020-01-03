@@ -1,0 +1,47 @@
+---
+layout: base.liquid
+title: Discoliam
+---
+
+<p class="lead"><span>Discoliam</span> (Liam Edward Richardson to his parents) is a <span>User Interface Developer 🤓</span> currently based in <span>Vancouver, BC 🇨🇦</span>, and the <span>Technical Lead 🛠️</span> at <a href="https://www.wallop.ca/">Wallop</a>. For {% yearDiff 2010 %} years he has built award winning <span>Websites, Applications and Installations</span> for clients around the globe. Outside of work, he enjoys live music 🎸, rides bicycles 🚵‍♂️ and eats falafel 🧆.</p>
+
+<section class="projects">
+<h2>Potted History of Projects</h2>
+<ul>
+  {%- for project in projects -%}
+    <li>
+      <span class="sr-only">{{ project }}</span>
+      <svg class="icon svg-{{project | downcase | replace: ' ', '-' }}"><use xlink:href="#{{project | downcase | replace: ' ', '-' }}"></use></svg>
+    </li>
+  {%- endfor -%}
+</ul>
+</section>
+
+<section class="previous-clients">
+  <h2>Previous Clients</h2>
+  <ul>
+    {%- for client in clients -%}
+      <li>
+        <span class="sr-only">{{ client }}</span>
+        <svg class="icon svg-{{client | downcase | replace: ' ', '-' }}"><use xlink:href="#{{client | downcase | replace: ' ', '-' }}"></use></svg>
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>
+
+
+<section class="social">
+  <h2>Get in touch</h2>
+  <p>Give me a bell on any of the channels bellow <em>(even LinkedIn if you really have too...)</em> and I'll get back to you asap.</p>
+  <nav>
+    {%- for contact in contacts -%}
+      <a href="{{contact.url | url}}" class="{{contact.name | downcase }}" {% if contact.target %}target="{{contact.target}}"{% endif %}>
+        <span class="sr-only">{{contact.name}}</span>
+        <svg class="icon svg-{{contact.name | downcase }}"><use xlink:href="#{{contact.name | downcase }}"></use></svg>
+        {% if contact.target %}
+          <span class="sr-only">{{contact.name}} - Opens in new Tab</span>
+        {% endif %}
+      </a>
+    {%- endfor -%}
+  </nav>
+</section>

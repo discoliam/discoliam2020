@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container">
+      <nav class="footer-nav">
+      {%- for link in collections.footernav -%}
+        <a href="{{ link.url | url }}">{{ link.data.title }}</a>
+      {%- endfor -%}
+    </nav>
+    <p>Developed in 🇦🇺, 🇬🇧, 🇨🇦, etc..<br />
+    Built using <a href="{{ 'https://www.11ty.dev/' | url }}" target="_blank">11ty</a>. Hosted on <a href="{{ 'https://www.netlify.com/' | url }}">Netlify</a>. DNS by <a href="{{ 'https://dnsimple.com/referrals?account_id=76379' | url }}">DNSimple</a>.<br />
+    &copy; {{ 'now' | date: "%Y" }} Liam Richardson</p>
+  </div>
+</footer>
