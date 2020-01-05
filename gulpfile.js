@@ -9,6 +9,7 @@ const postcssNesting = require('postcss-nesting');
 const purgecss = require('@fullhuman/postcss-purgecss');
 const purgecssWordpress = require('purgecss-with-wordpress');
 const cssnano = require('cssnano');
+const autoprefixer = require('autoprefixer');
 
 
 // SASS
@@ -27,10 +28,11 @@ gulp.task('css', function() {
   .pipe(postcss([
     atImport(),
     postcssNesting(),
-    postcssPresetEnv(),
+    postcssPresetEnv({ stage: 0 }),
     // purgecss({
     //   content: ['./src/*.liquid'],
     // }),
+    autoprefixer(),
     cssnano({
       preset: ['default', {
         discardComments: {
