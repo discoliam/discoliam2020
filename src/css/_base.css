@@ -1,4 +1,11 @@
 /* Elements */
+:root {
+  font-size: 16px;
+  line-height:1.6875rem;
+  font-weight: 300;
+}
+
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -10,17 +17,26 @@ html {
   box-sizing: inherit;
 }
 
+/* Body */
+body {
+  font-family: var(--font-regular);
+  background-color: var(--light);
+  color: var(--dark);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
 img {
   width: 100%;
   height: auto;
 }
 
 ::selection {
-  background: var(--main);
+  background: var(--secondary);
   color: var(--dark);
 }
 
 ::-moz-selection {
-  background: var(--main);
+  background: var(--secondary);
   color: var(--dark);
 }

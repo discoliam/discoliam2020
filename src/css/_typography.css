@@ -1,99 +1,41 @@
 /* Tyography */
 
-/* Goole Import */
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,800");
-@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i");
-
 :root{
-  --font-regular: "Libre Baskerville", serif;
-  --font-heading: "Raleway", sans-serif;
+  --font-regular: 'Inter', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
 }
 
-/* Body */
-body {
-  font-family: var(--font-regular);
-  background-color: var(--dark);
-  color: var(--light);
-  line-height: 1.65;
-  font-weight: 400;
-}
 
-p {margin-bottom: 1.15rem;}
+p {margin: 0 0 1.15rem 0;}
 
-main h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, .site-title{
   font-family: var(--font-heading);
-  margin: 2.75rem 0 1.05rem;
-  font-weight: 800;
-  line-height: 1.15;
-  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: 0.33px;
+  margin: 0 0 1.05rem 0;
   color: var(--main);
-  letter-spacing: 2px;
 }
 
-h2,h3,h4,h5{
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--main);
+h1 {font-size: 3.75rem;} /* 60px */
+h2 {font-size: 2.5rem; } /* 40px */
+h3 {font-size: 1.875rem; } /* 30px */
+h4 {font-size: 1.5rem; } /* 24px */
+h5, .lead {font-size: 1.125rem; } /* 18px */
+
+small, .text_small {font-size: 0.667rem;}
+
+@media (--viewport-medium) {
 }
 
-main h1 {
-  font-size:40px;
-  margin-top: 0;
-  color: var(--alt);
-}
-
-h2 {font-size: 40px; margin-top: 0;}
-h3 {font-size: 30px;}
-h4 {font-size: 20px;}
-h5 {font-size: 16px;}
 
 @media (--viewport-large) {
-  main h1 {font-size: 80px;}
-  h2 {font-size: 64px;}
-  h3 {font-size: 45px;}
-  h4 {font-size: 31px;}
-  h5 {font-size: 22px;}
 }
 
-
-small, .text_small, .site-footer {font-size: 11px;}
-
-
-.lead{
-  font-family: var(--font-heading);
-  font-size: 22px;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  font-weight: 800;
-  & span{
-    color: var(--alt);
-  }
-  @media (--viewport-large) {
-    font-size: 28px;
-  }
-}
-
-nav{
-  & a{
-    font-family: var(--font-heading);
-    letter-spacing: 1px;
-    display: inline-block;
-    box-shadow: none;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 800;
-    margin: 0 10px;
-    line-height: 1;
-    &:hover{
-      color: var(--dark);
-      box-shadow: inset 0px -1.5rem 0px 0px var(--alt);
-    }
-  }
-}
 
 /* Bold */
 strong {
-  font-weight: 800;
+  font-weight: 600; /* Semi Bold */
 }
 
 /* Italic */
@@ -104,14 +46,34 @@ i {
 
 /* Links */
 a {
-  color: var(--main);
+  transition: color var(--base-duration) var(--base-timing);
   text-decoration: none;
-  font-style: italic;
-  transition: color var(--base-duration) var(--base-timing),
-    box-shadow var(--base-duration) var(--base-timing);
-    box-shadow: inset 0px -0.1rem 0px 0px var(--alt);
-  &:hover {
-    box-shadow: inset 0px -1.5rem 0px 0px var(--alt);
-    color: var(--dark);
+  color: var(--dark);
+  font-weight: 600;
+  position: relative;
+  &::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--alt);
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transform-origin: 0;
   }
+  &:hover {
+    color: var(--main);
+    text-decoration: none;
+    &::after{
+      animation: re-draw 500ms 1 both;
+    }
+  }
+
+}
+
+@keyframes re-draw {
+  0%   { transform: scaleX(0); }
+  10%   { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
 }

@@ -15,6 +15,40 @@
   width: 100%;
   padding-left: 27px;
   padding-right: 27px;
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 1360px;
+  margin:0 auto;
+}
+
+/* Buttons */
+.btn{
+  border-radius: 4px;
+  border: solid 2px var(--alt);
+  font-size: .75rem; /* 12px */
+  font-weight: 600;
+  letter-spacing: 0.0625rem;/* 1px */
+  background-color: transparent;
+  color: var(--alt);
+  line-height: 1.4375rem;
+  text-transform: uppercase;
+  min-width: 226px;
+  height: 59px;
+  padding: 21px 26px 23px 26px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: color 180ms ease, background-color 180ms ease, border 180ms ease, box-shadow 180ms ease-out;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: inset 0px -2px 0px 0px var(--alt);
+  &::after{
+    display: none;
+  }
+  &:hover{
+    box-shadow: inset 0px -59px 0px 0px var(--alt);
+    color: var(--light);
+  }
 }

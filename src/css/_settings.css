@@ -2,26 +2,29 @@
 
 
 /* Media Queries */
-@custom-media --viewport-small (min-width: 768px);
-@custom-media --viewport-medium (min-width: 1024px);
-@custom-media --viewport-large (min-width: 1440px);
+@custom-media --viewport-small (min-width: 600px);
+@custom-media --viewport-medium (min-width: 768px);
+@custom-media --viewport-large (min-width: 1024px);
+@custom-media --viewport--extra-large (min-width: 1440px);
+
 
 
 /* Vars */
 :root {
   /* Main Colours */
-  --light: #f1f1f1;
-  --dark: #40677D;
-  --main: #19e3bd;
-  --alt: #E66653;
-  --secondary: #0272B0;
+  --light: #FFFBE9;
+  --dark: #002726;
+  --main: #005c5a;
+  --alt: #ef4744;
+  --secondary: #fdbe27;
+
 
   /* Functional Colours */
   --error: #B0020C;
   --success: #0f0;
 
   /* Type */
-  $base-font-size: 15px;
+  $base-font-size: 16px;
   $base-line-height: 1.5;
   $heading-line-height: 1.2;
 
@@ -30,14 +33,14 @@
 
   /* Other Sizes */
   --body-radius: 3px;
-
   --base-spacing-external: span(1 of 16);
   --base-spacing-internal: 20px;
 
   /* Animations */
-  --base-duration: 150ms;
+  --base-duration: 180ms;
   --base-timing: ease;
 }
+
 
 /* Helper Classes */
 .screen-reader-text {
