@@ -1,10 +1,10 @@
 <header class="site-header">
   <div class="container">
-    {% if page.url == "/" %}
-      <h1 class="site-title"><a href="{{ '/'' | url }}">DiscoLiam</a></h1>
-    {% else %}
-      <p class="site-title"><a href="{{ '/' | url }}">DiscoLiam</a></p>
-    {% endif %}
+    <a href="{{ '/'' | url }}" class="site-title">
+      <span class="sr-only">Discoliam.com - Go to Home page</span>
+      <svg class="icon svg-logo svg-logo-top"><use xlink:href="#logo"></use></svg>
+      <svg class="icon svg-logo svg-logo-bottom"><use xlink:href="#logo"></use></svg>
+    </a>
   </div>
-
+  <img src="https://source.unsplash.com/random/174x174" alt="#">
 </header>
