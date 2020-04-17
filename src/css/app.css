@@ -4,4 +4,8 @@
 @import '_utilities';
 @import '_typography';
 @import '_base';
-@import '_layout';
+
+
+@import 'partials/_header';
+@import 'partials/_footer';
+@import 'partials/_home';

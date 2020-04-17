@@ -1,0 +1,71 @@
+/* One col Layout */
+.container.is-main-body{
+  display: grid;
+  grid-template-columns:  [col1-start] repeat(12, 1fr) [col1-end];
+  gap: 32px;
+  & main{
+    grid-area: col1;
+  }
+
+  @media (--viewport-medium) {
+    grid-template-columns: repeat(1, 1fr) [col1-start] repeat(10, 1fr) [col1-end] repeat(1, 1fr);
+  }
+
+  @media (--viewport-large) {
+    grid-template-columns: repeat(2, 1fr) [col1-start] repeat(8, 1fr) [col1-end] repeat(2, 1fr);
+  }
+
+  @media (--viewport-extra-large) {
+    grid-template-columns: repeat(3, 1fr) [col1-start] repeat(6, 1fr) [col1-end] repeat(3, 1fr);
+  }
+
+}
+
+
+
+
+/* Previous Clinets */
+.previous-clients, .projects{
+  & ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    & li{
+      flex-basis: calc(50%);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (--viewport-small) {
+        flex-basis: calc(33.3%);
+      }
+      @media (--viewport-medium) {
+        flex-basis: calc(25%);
+      }
+      & svg{
+        width: 70%;
+        height: 70%;
+      }
+    }
+  }
+}
+
+
+/* Social */
+section.social{
+  & nav{
+    & a{
+      display: inline-block;
+      margin-right: 10px;
+      & svg{
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}

@@ -1,11 +1,30 @@
 <footer class="site-footer">
   <div class="container">
+
+
+    <div class="grid-col">
+
       <nav class="footer-nav">
-      {%- for link in collections.footernav -%}
-        <a href="{{ link.url | url }}">{{ link.data.title }}</a>
-      {%- endfor -%}
-    </nav>
-    <p>Built using <a href="{{ 'https://www.11ty.dev/' | url }}" target="_blank">11ty</a>. Hosted on <a href="{{ 'https://www.netlify.com/' | url }}">Netlify</a>. DNS by <a href="{{ 'https://dnsimple.com/referrals?account_id=76379' | url }}">DNSimple</a>.<br />
-    &copy; {{ 'now' | date: "%Y" }} Liam Richardson</p>
+        {%- for link in collections.footernav -%}
+          <a href="{{ link.url | url }}">{{ link.data.title }}</a>
+        {%- endfor -%}
+      </nav>
+    </div>
+    <div class="grid-col">
+      <nav class="social-nav">
+        {%- for contact in contacts -%}
+          <a href="{{contact.url | url}}" class="{{contact.name | downcase }}" {% if contact.target %}target="{{contact.target}}"{% endif %}>
+            <span class="sr-only">{{contact.name}}</span>
+            <svg class="icon svg-{{contact.name | downcase }}"><use xlink:href="#{{contact.name | downcase }}"></use></svg>
+            {% if contact.target %}
+              <span class="sr-only">{{contact.name}} - Opens in new Tab</span>
+            {% endif %}
+          </a>
+        {%- endfor -%}
+      </nav>
+      <p>Built using <a href="{{ 'https://www.11ty.dev/' | url }}" target="_blank">11ty</a>. Hosted on <a href="{{ 'https://www.netlify.com/' | url }}">Netlify</a>. DNS by <a href="{{ 'https://dnsimple.com/referrals?account_id=76379' | url }}">DNSimple</a>.</p>
+      <p>Designed by <a href="http://patriciabernal.ca/" target="_blank">Patricia Bernal<span class="sr-only"> - Opens in new tab</span></a></p>
+      <p class="copy">&copy; {{ 'now' | date: "%Y" }} Liam Richardson</p>
+    </div>
   </div>
 </footer>
