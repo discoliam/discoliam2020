@@ -2,6 +2,7 @@
 .site-header {
   text-align: center;
   height: 177px;
+  margin-bottom: 136px;
   & .site-title{
     display: inline-block;
     width: 354px;

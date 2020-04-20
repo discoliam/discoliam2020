@@ -3,7 +3,7 @@
   background-color: var(--main);
   color: var(--light);
   text-align: center;
-
+  & h2 {color: var(--light);}
   & a{
     color: var(--white);
     &:hover{
@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
     & a{
       display: inline-block;
       text-transform: uppercase;
@@ -28,28 +29,23 @@
       font-size: 21px;
       font-weight: 600;
       margin: 0 10px;
+      color: var(--secondary);
       &::after{
         display: none;
       }
       &:hover{
-        color: var(--secondary);
-      }
-    }
-    &.footer-nav a{
-      color: var(--secondary);
-      &:hover {
         color: var(--alt);
       }
-    }
-    &.social-nav a svg{
-      width: 24px;
-      height: 24px;
     }
   }
 
   & p {
     font-size: 16px;
-    line-height: 1.69;
+    line-height: 27px;
+    margin-bottom: 23px;
+    &.details{
+      font-size: 12px;
+    }
     &.copy{
       font-size: 12px;
       letter-spacing: 1px;
@@ -64,7 +60,6 @@
       display: grid;
       gap: 32px;
       grid-template-columns: repeat(3, 1fr) [col1-start] repeat(3, 1fr) [col1-end col2-start] repeat(3, 1fr) [col2-end] repeat(3, 1fr);
-      grid-row: 1;
     }
 
     & .grid-col{
@@ -78,15 +73,11 @@
     }
 
     & nav{
-      flex-direction: column;
-      align-items: flex-start;
-      &.social-nav{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-      }
+      /* flex-wrap: wrap; */
+      justify-content: space-between;
       & a{
-        margin: 0 10px 0 0;
+        width: 50%;
+        margin: 0 0 0 0;
       }
     }
 

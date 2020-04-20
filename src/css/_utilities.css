@@ -13,10 +13,21 @@
 /* Container */
 .container{
   width: 100%;
-  padding-left: 27px;
-  padding-right: 27px;
   max-width: 1360px;
   margin:0 auto;
+  padding-left: 27px;
+  padding-right: 27px;
+
+  @media (--viewport-medium) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
 
 /* Buttons */

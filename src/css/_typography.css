@@ -8,7 +8,7 @@
 
 p {margin: 0 0 1.15rem 0;}
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   font-family: var(--font-heading);
   font-weight: 600;
   line-height: 0.98;
@@ -22,10 +22,31 @@ h2 {font-size: 2.5rem; } /* 40px */
 h3 {font-size: 1.875rem; } /* 30px */
 h4 {font-size: 1.5rem; } /* 24px */
 h5 {font-size: 1.25rem; } /* 20px */
-h6, .lead {font-size: 1.125rem; } /* 18px */
+h6 {font-size: 1.125rem; } /* 18px */
 
 small, .text_small {font-size: 0.667rem;}
 
+.lead{
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height:  1.4;
+  letter-spacing: 0.33px;
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 85px;
+  color: var(--dark);
+  & span {
+    color: var(--main);
+  }
+}
+
+.subtitle{
+  font-family: var(--font-regular);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
 
 /* Bold */

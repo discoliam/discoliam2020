@@ -15,24 +15,26 @@
     grid-template-columns: repeat(2, 1fr) [col1-start] repeat(8, 1fr) [col1-end] repeat(2, 1fr);
   }
 
-  @media (--viewport-extra-large) {
+  /* @media (--viewport-extra-large) {
     grid-template-columns: repeat(3, 1fr) [col1-start] repeat(6, 1fr) [col1-end] repeat(3, 1fr);
-  }
+  } */
 
 }
 
+/* Logo Sections */
 
+.previous-clients, .projects h2{
+  text-align: center;
+}
 
-
-/* Previous Clinets */
 .previous-clients, .projects{
   & ul {
     list-style: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 0 0 85px 0;
     padding: 0;
     & li{
       flex-basis: calc(50%);
@@ -49,22 +51,8 @@
       }
       & svg{
         width: 70%;
-        height: 70%;
-      }
-    }
-  }
-}
-
-
-/* Social */
-section.social{
-  & nav{
-    & a{
-      display: inline-block;
-      margin-right: 10px;
-      & svg{
-        width: 32px;
-        height: 32px;
+        height: 100%;
+        /* color: var(--dark) */
       }
     }
   }
