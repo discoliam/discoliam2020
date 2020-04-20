@@ -1,7 +1,8 @@
 ---
-layout: base.liquid
+layout: layout-base.liquid
 title: Uses
 tags: footernav
+body-class: uses
 ---
 
 # {{title}}

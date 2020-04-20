@@ -1,31 +1,47 @@
 ---
-layout: base.liquid
+layout: layout-home.liquid
 title: Discoliam
 body-class: home
 ---
 
-<p class="lead"><span>Discoliam</span> (Liam Edward Richardson to his parents) is a <span>User Interface Developer</span> 🤓 currently based in <span>Vancouver, BC</span> 🇨🇦. For {% yearDiff 2010 %} years he has built award winning <span>Websites, Applications and Installations</span> for clients around the globe 🌎. Outside of work, he enjoys live music 🎸, rides bicycles 🚲 and eats pizza 🍕.</p>
+<section class="intro">
+  <div class="container">
+    <div class="grid-col">
+      <img src="/assets/photo.jpg" alt="Liam Richardson">
+      <p class="lead"><strong>Discoliam</strong> (Liam Edward Richardson to his parents) is a User Interface Developer 🤓 currently based in Vancouver, BC 🇨🇦. For 9 years he has built award-winning Websites, Applications, and Installations for clients around the globe 🌎.</p>
+      <p class="lead">He is passionate about <strong>Front End Dev</strong>, <strong>Performance</strong> and <strong>A11y</strong>.</p>
+    </div>
+  </div>
+</section>
 
 <section class="projects">
-<h2>Potted History of Projects</h2>
-<ul>
-  {%- for project in projects -%}
-    <li>
-      <span class="sr-only">{{ project }}</span>
-      <svg class="icon svg-{{project | downcase | replace: ' ', '-' }}"><use xlink:href="#{{project | downcase | replace: ' ', '-' }}"></use></svg>
-    </li>
-  {%- endfor -%}
-</ul>
+  <div class="container">
+    <div class="grid-col">
+      <h2>Potted History of Projects</h2>
+      <ul>
+        {%- for project in projects -%}
+          <li>
+            <span class="sr-only">{{ project }}</span>
+            <svg class="icon svg-{{project | downcase | replace: ' ', '-' }}"><use xlink:href="#{{project | downcase | replace: ' ', '-' }}"></use></svg>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
 </section>
 
 <section class="previous-clients">
-  <h2>Previous Clients</h2>
-  <ul>
-    {%- for client in clients -%}
-      <li>
-        <span class="sr-only">{{ client }}</span>
-        <svg class="icon svg-{{client | downcase | replace: ' ', '-' }}"><use xlink:href="#{{client | downcase | replace: ' ', '-' }}"></use></svg>
-      </li>
-    {%- endfor -%}
-  </ul>
+  <div class="container">
+    <div class="grid-col">
+      <h2>Previous Clients</h2>
+      <ul>
+        {%- for client in clients -%}
+          <li>
+            <span class="sr-only">{{ client }}</span>
+            <svg class="icon svg-{{client | downcase | replace: ' ', '-' }}"><use xlink:href="#{{client | downcase | replace: ' ', '-' }}"></use></svg>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
 </section>

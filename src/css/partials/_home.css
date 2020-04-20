@@ -1,9 +1,10 @@
 /* One col Layout */
-.container.is-main-body{
+.container{
   display: grid;
   grid-template-columns:  [col1-start] repeat(12, 1fr) [col1-end];
-  gap: 32px;
-  & main{
+  gap: var(--gap);
+  padding-bottom: 85px;
+  & .grid-col{
     grid-area: col1;
   }
 
@@ -15,14 +16,46 @@
     grid-template-columns: repeat(2, 1fr) [col1-start] repeat(8, 1fr) [col1-end] repeat(2, 1fr);
   }
 
-  /* @media (--viewport-extra-large) {
-    grid-template-columns: repeat(3, 1fr) [col1-start] repeat(6, 1fr) [col1-end] repeat(3, 1fr);
-  } */
-
 }
 
-/* Logo Sections */
+/* intro */
+.intro {
+  & .grid-col{
+    background: var(--main);
+    color: var(--light);
+    padding: 120px 32px 32px 32px;
+    position: relative;
+    border-radius: 3px;
+    & img{
+      position: absolute;
+      left: 50%;
+      top: 0%;
+      transform: translate(-50%, -50%);
+      width: 175px;
+      border: solid 10px var(--light);
+      border-radius: 50%;
+    }
+    & p.lead{
+      line-height: 1.5;
+      & span, & strong {
+        color: var(--secondary);
+      }
+    }
+    @media (--viewport-medium) {
+      padding: 32px 32px 32px 180px;
 
+      & img{
+        width: 250px;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+
+/* Logo Sections */
 .previous-clients, .projects h2{
   text-align: center;
 }
@@ -34,7 +67,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 0 85px 0;
+    margin: 0;
     padding: 0;
     & li{
       flex-basis: calc(50%);

@@ -1,0 +1,23 @@
+/* One col Layout */
+.container.is-main-body{
+  display: grid;
+  grid-template-columns:  [col1-start] repeat(12, 1fr) [col1-end];
+  gap: var(--gap);
+  padding-bottom: 85px;
+  & .grid-col{
+    grid-area: col1;
+  }
+
+  @media (--viewport-medium) {
+    grid-template-columns: repeat(1, 1fr) [col1-start] repeat(10, 1fr) [col1-end] repeat(1, 1fr);
+  }
+
+  @media (--viewport-large) {
+    grid-template-columns: repeat(2, 1fr) [col1-start] repeat(8, 1fr) [col1-end] repeat(2, 1fr);
+  }
+
+  @media (--viewport-extra-large) {
+    grid-template-columns: repeat(3, 1fr) [col1-start] repeat(6, 1fr) [col1-end] repeat(3, 1fr);
+  }
+
+}

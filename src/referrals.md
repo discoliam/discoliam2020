@@ -1,7 +1,8 @@
 ---
-layout: base.liquid
+layout: layout-base.liquid
 title: Referrals
 tags: footernav
+body-class: referrals
 ---
 
 # {{title}}

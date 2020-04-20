@@ -1,6 +1,7 @@
 ---
-layout: base.liquid
+layout: layout-base.liquid
 title: Styleguide
+body-class: Styleguide
 ---
 
 # {{title}}

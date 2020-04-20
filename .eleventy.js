@@ -2,7 +2,7 @@ module.exports = function(eleventyConfig) {
 
   // Folders to copy to build dir (See. 1.1)
   eleventyConfig.addPassthroughCopy("src/assets");
-
+  eleventyConfig.addPassthroughCopy({ "src/images": "assets" });
 
   // Usage: {% yearDiff 2010 %}
   eleventyConfig.addLiquidTag("yearDiff", function(liquidEngine) {

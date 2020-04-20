@@ -55,6 +55,7 @@
   text-decoration: none;
   cursor: pointer;
   box-shadow: inset 0px -2px 0px 0px var(--alt);
+  margin-bottom: 23px;
   &::after{
     display: none;
   }

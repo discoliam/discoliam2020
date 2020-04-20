@@ -7,8 +7,6 @@
 @custom-media --viewport-large (min-width: 1024px);
 @custom-media --viewport-extra-large (min-width: 1440px);
 
-
-
 /* Vars */
 :root {
   /* Main Colours */
@@ -17,7 +15,6 @@
   --main: #005c5a;
   --alt: #ef4744;
   --secondary: #fdbe27;
-
 
   /* Functional Colours */
   --error: #B0020C;
@@ -39,7 +36,14 @@
   /* Animations */
   --base-duration: 180ms;
   --base-timing: ease;
+
+  /* Grid */
+  --gap: var(--gap);
+
+
+
 }
+
 
 
 /* Helper Classes */
