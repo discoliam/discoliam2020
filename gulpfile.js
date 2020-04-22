@@ -1,5 +1,4 @@
 const gulp    = require("gulp");
-const sass    = require("gulp-sass");
 const svgSprite    = require("gulp-svg-sprite");
 const rename    = require("gulp-rename");
 const postcss = require('gulp-postcss');
@@ -7,20 +6,8 @@ const postcssPresetEnv = require('postcss-preset-env');
 const atImport = require('postcss-import');
 const postcssNesting = require('postcss-nesting');
 const purgecss = require('@fullhuman/postcss-purgecss');
-const purgecssWordpress = require('purgecss-with-wordpress');
 const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
-
-
-// SASS
-gulp.task('sass', function() {
-  return gulp.src('./src/scss/app.scss')
-    .pipe(sass({
-      outputStyle: 'compressed'
-    })
-    .on('error', sass.logError))
-    .pipe(gulp.dest('./src/assets/'));
-});
 
 // Post CSS
 gulp.task('css', function() {
@@ -29,9 +16,10 @@ gulp.task('css', function() {
     atImport(),
     postcssNesting(),
     postcssPresetEnv({ stage: 0 }),
-    // purgecss({
-    //   content: ['./src/*.liquid'],
-    // }),
+    purgecss({
+      content: ['src/**/*.liquid'],
+      whitelist: ["a","abbr","address","area","b","blockquote","br","button","canvas","caption","cite","code","dd","del","dl","dt","em","fieldset","figure","h1","h2","h3","h4","h5","h6","hgroup","hr","i","img","input","label","li","link","mark","ol","p","pre","q","s","small","span","strong","sub","sup","table","tbody","thead","tfoot","td","th","tr","time","ul","video"]
+    }),
     autoprefixer(),
     cssnano({
       preset: ['default', {
@@ -84,7 +72,6 @@ gulp.task('moveSvgSprite', function() {
 
 // Watch Folders for Changes
 gulp.task("watch", function() {
-  gulp.watch('./src/scss/**/*.scss', gulp.parallel('sass'));
   gulp.watch('./src/css/**/*.css', gulp.parallel('css'));
   gulp.watch('./src/svgs/*.svg', gulp.series('generateSvgSprite', 'moveSvgSprite'));
 });
