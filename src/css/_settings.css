@@ -9,16 +9,35 @@
 
 /* Vars */
 :root {
+
+  /* Brand Colours */
+  --off-white: #FFFBE9;
+  --navy: #002726;
+  --teal: #005c5a;
+  --pastel-red: #ef4744;
+  --macaroni-and-cheese: #fdbe27;
+
   /* Main Colours */
-  --light: #FFFBE9;
-  --dark: #002726;
-  --main: #005c5a;
-  --alt: #ef4744;
-  --secondary: #fdbe27;
+  --light: var(--off-white);
+  --dark: var(--navy);
+  --main: var(--teal);
+  --alt: var(--pastel-red);
+  --secondary: var(--macaroni-and-cheese);
+
+
+  /* Switchers */
+  --background: var(--light);
+  --text: var(--dark);
+  @media (prefers-color-scheme: dark) {
+    --background: var(--dark);
+    --text: var(--light);
+  }
+
+
 
   /* Functional Colours */
-  --error: #B0020C;
-  --success: #0f0;
+  --error: var(--alt);
+  --success: #384e3c;
 
   /* Type */
   $base-font-size: 16px;

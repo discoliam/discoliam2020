@@ -1,6 +1,7 @@
-const gulp    = require("gulp");
-const svgSprite    = require("gulp-svg-sprite");
-const rename    = require("gulp-rename");
+const gulp = require("gulp");
+const yargs = require('yargs');
+const svgSprite = require("gulp-svg-sprite");
+const rename = require("gulp-rename");
 const postcss = require('gulp-postcss');
 const postcssPresetEnv = require('postcss-preset-env');
 const atImport = require('postcss-import');
@@ -8,6 +9,13 @@ const postcssNesting = require('postcss-nesting');
 const purgecss = require('@fullhuman/postcss-purgecss');
 const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
+const webpack = require('webpack-stream');
+const named = require('vinyl-named');
+
+//==============================================================================
+// Variables
+//==============================================================================
+const PRODUCTION = yargs.argv.prod;
 
 // Post CSS
 gulp.task('css', function() {
@@ -31,6 +39,34 @@ gulp.task('css', function() {
   ]))
   .pipe(gulp.dest('./src/assets/'));
 });
+
+// Scripts
+gulp.task('scripts', function() {
+  return gulp.src('./src/js/app.js')
+  .pipe(named())
+  .pipe(webpack({
+      module: {
+        rules: [
+          {
+            test: /\.js$/,
+            use: {
+              loader: "babel-loader",
+              options: {
+                presets: ["@babel/preset-env"]
+              }
+            }
+          }
+        ]
+      },
+      mode: PRODUCTION ? "production" : "development",
+      devtool: !PRODUCTION ? "inline-source-map" : false,
+      output: {
+        filename: "[name].js"
+      }
+    }))
+  .pipe(gulp.dest('./build/assets/'));
+});
+
 
 // SVG
 gulp.task('generateSvgSprite', function() {
@@ -72,9 +108,10 @@ gulp.task('moveSvgSprite', function() {
 
 // Watch Folders for Changes
 gulp.task("watch", function() {
-  gulp.watch('./src/css/**/*.css', gulp.parallel('css'));
+  gulp.watch('./src/css/**/*.css', gulp.series('css'));
+  gulp.watch('./src/js/**/*.js', gulp.series('scripts'));
   gulp.watch('./src/svgs/*.svg', gulp.series('generateSvgSprite', 'moveSvgSprite'));
 });
 
 // Build
-gulp.task('build', gulp.parallel('css', gulp.series('generateSvgSprite', 'moveSvgSprite') ));
+gulp.task('build', gulp.parallel('css', 'scripts', gulp.series('generateSvgSprite', 'moveSvgSprite') ));
