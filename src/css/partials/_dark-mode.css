@@ -1,0 +1,21 @@
+html[data-theme="dark"] {
+
+  --background: var(--dark);
+  --text: var(--light);
+
+  & h1, & h2, & h3, & h4, & h5, & h6{
+    color: var(--secondary);
+  }
+
+  & a{
+    color: var(--secondary);
+    &:hover{
+      color: var(--text);
+    }
+  }
+
+  & .site-footer{
+    background-color: var(--background);
+    border-top: solid 5px var(--main);
+  }
+}

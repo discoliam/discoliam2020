@@ -28,12 +28,6 @@
   /* Switchers */
   --background: var(--light);
   --text: var(--dark);
-  @media (prefers-color-scheme: dark) {
-    --background: var(--dark);
-    --text: var(--light);
-  }
-
-
 
   /* Functional Colours */
   --error: var(--alt);

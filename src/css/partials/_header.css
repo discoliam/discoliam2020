@@ -63,3 +63,10 @@
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
+.theme-toggle{
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
