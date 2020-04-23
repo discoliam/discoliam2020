@@ -2,7 +2,7 @@
 .site-header {
   text-align: center;
   height: 88.5px;
-  margin-bottom: 68px;
+  margin-bottom: 136px;
   overflow: hidden;
   & .site-title{
     display: inline-block;
@@ -40,7 +40,6 @@
 
   @media (--viewport-medium) {
     height: 177px;
-    margin-bottom: 136px;
     & .site-title{
       width: 354px;
       height: 354px;
