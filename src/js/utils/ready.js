@@ -6,3 +6,4 @@ export default function (fn) {
     document.addEventListener('DOMContentLoaded', fn);
   }
 }
+
