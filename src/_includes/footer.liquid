@@ -12,7 +12,7 @@
       <p>Give me a bell on any of the channels bellow <em>(even LinkedIn if you really have too...)</em> and I'll get back to you asap.</p>
       <nav class="social-nav">
         {%- for contact in contacts -%}
-          <a href="{{contact.url | url}}" class="{{contact.name | downcase }}" {% if contact.target %}target="{{contact.target}}"{% endif %}>
+          <a href="{{contact.url | url}}" class="{{contact.name | downcase }}" {% if contact.target %}target="{{contact.target}}" rel="noopener"{% endif %}>
             <span class="sr-only">{{contact.name}}</span>
             <svg class="icon svg-{{contact.name | downcase }}-dims"><use xlink:href="#{{contact.name | downcase }}"></use></svg>
             {% if contact.target %}
@@ -21,7 +21,7 @@
           </a>
         {%- endfor -%}
       </nav>
-      <p class="details">Built using <a href="{{ 'https://www.11ty.dev/' | url }}" target="_blank">11ty</a>. Hosted on <a href="{{ 'https://www.netlify.com/' | url }}">Netlify</a>. DNS by <a href="{{ 'https://dnsimple.com/referrals?account_id=76379' | url }}">DNSimple</a>. Designed by <a href="http://patriciabernal.ca/" target="_blank">Patricia Bernal<span class="sr-only"> - Opens in new tab</span></a></p>
+      <p class="details">Built using <a href="{{ 'https://www.11ty.dev/' | url }}" target="_blank" rel="noopener">11ty<span class="sr-only"> - Opens in new window</span></a>. Hosted on <a href="{{ 'https://www.netlify.com/' | url }}" target="_blank" rel="noopener">Netlify<span class="sr-only"> - Opens in new window</span></a>. DNS by <a href="{{ 'https://dnsimple.com/referrals?account_id=76379' | url }}" target="_blank" rel="noopener">DNSimple <span class="sr-only"> - Opens in new window</span></a>. Designed by <a href="http://patriciabernal.ca/" target="_blank" rel="noopener">Patricia Bernal<span class="sr-only"> - Opens in new window</span></a></p>
       <p class="copy">&copy; {{ 'now' | date: "%Y" }} Liam Richardson</p>
     </div>
   </div>
