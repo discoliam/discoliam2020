@@ -64,7 +64,7 @@ gulp.task('scripts', function() {
         filename: "[name].js"
       }
     }))
-  .pipe(gulp.dest('./build/assets/'));
+  .pipe(gulp.dest('./src/assets/'));
 });
 
 

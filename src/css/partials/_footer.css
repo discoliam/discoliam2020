@@ -1,6 +1,6 @@
 /* Footer */
 .site-footer{
-  background-color: var(--main);
+  background-color: var(--dark);
   color: var(--light);
   text-align: center;
   & h2 {color: var(--light);}
