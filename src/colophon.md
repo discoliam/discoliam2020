@@ -20,3 +20,7 @@ Built using [11ty](https://www.11ty.dev/) with [Liquid](https://shopify.github.i
 Source code and more details available on [Github](https://github.com/discoliam/discoliam2020).
 
 Hosted on [Netlify](https://www.netlify.com/).
+
+### Previous Versions
+
+I don't normally keep older versions of my website. But, I did manage to save the [2016](https://2016.discoliam.com/) and [2018](https://2018.discoliam.com/) versions, if you're desperate to see work I now consider rather embarrassing.
