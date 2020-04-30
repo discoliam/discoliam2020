@@ -21,3 +21,26 @@
   }
 
 }
+
+
+/* Heading Anchors */
+.heading-link {
+  color: var(--main);
+  transition: opacity 180ms linear;
+  opacity: 0;
+  font-size: 80%;
+  &::after{
+    display: none;
+  }
+  &:hover, &:focus{
+    color: var(--alt);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  &:focus, &:focus-within, &:hover {
+    & a.heading-link{
+      opacity: 0.5;
+    }
+  }
+}

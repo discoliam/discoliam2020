@@ -4,6 +4,22 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({ "src/images": "assets" });
 
+
+  // Update Markdown with Plugins
+  let markdownIt = require("markdown-it");
+  let markdownItAnchor = require("markdown-it-anchor");
+  let options = {
+    html: true
+  };
+  let markdownLib = markdownIt(options).use(markdownItAnchor, {
+    permalink: true,
+    permalinkClass: "heading-link",
+    permalinkSymbol: "#"
+  });
+  eleventyConfig.setLibrary("md", markdownLib);
+
+
+  // Year Diff
   // Usage: {% yearDiff 2010 %}
   eleventyConfig.addLiquidTag("yearDiff", function(liquidEngine) {
     return {

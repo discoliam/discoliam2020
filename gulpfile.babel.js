@@ -26,7 +26,7 @@ gulp.task('css', function() {
     postcssPresetEnv({ stage: 0 }),
     purgecss({
       content: ['src/**/*.liquid', 'src/**/*.md'],
-      whitelist: ["a","abbr","address","area","b","blockquote","br","button","canvas","caption","cite","code","dd","del","dl","dt","em","fieldset","figure","h1","h2","h3","h4","h5","h6","hgroup","hr","i","img","input","label","li","link","mark","ol","p","pre","q","s","small","span","strong","sub","sup","table","tbody","thead","tfoot","td","th","tr","time","ul","video"]
+      whitelist: ["a","abbr","address","area","b","blockquote","br","button","canvas","caption","cite","code","dd","del","dl","dt","em","fieldset","figure","h1","h2","h3","h4","h5","h6","hgroup","hr","i","img","input","label","li","link","mark","ol","p","pre","q","s","small","span","strong","sub","sup","table","tbody","thead","tfoot","td","th","tr","time","ul","video","heading-link"]
     }),
     autoprefixer(),
     cssnano({
