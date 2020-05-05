@@ -57,12 +57,6 @@
         border-radius: 50%;
       }
     }
-    & p.lead{
-      line-height: 1.5;
-      & span, & strong {
-        color: var(--secondary);
-      }
-    }
     @media (--viewport-medium) {
       padding: 32px 32px 32px 180px;
 
@@ -75,6 +69,29 @@
       }
     }
   }
+
+  & h1{
+    line-height: 1.5;
+    color: var(--secondary);
+    letter-spacing: 0.5px;
+    font-size: 1.5rem; /* 24px */
+    display: inline;
+  }
+
+  & p.lead{
+    display: inline;
+    line-height: 1.5;
+    font-size: ;
+    & span, & strong {
+      color: var(--secondary);
+    }
+    &.two{
+      display: block;
+      margin-top: 15px;
+    }
+  }
+
+
 }
 
 

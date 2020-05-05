@@ -44,3 +44,23 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
+/* Browser Upgrade */
+.browserupgrade{
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: var(--alt);
+  color: var(--light);
+  text-align: center;
+  z-index: 10;
+  & a{
+    color: var(--secondary);
+    &:hover, &:focus{
+      color: var(--primary);
+    }
+  }
+}

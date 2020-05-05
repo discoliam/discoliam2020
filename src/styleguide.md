@@ -1,10 +1,12 @@
 ---
 layout: layout-base.liquid
-title: Styleguide
+title: Styleguide | Discoliam
+pageTitle: Styleguide
+description: An incomplete styleguie you say?
 body-class: Styleguide
 ---
 
-# {{title}}
+# {{pageTitle}}
 
 ---
 

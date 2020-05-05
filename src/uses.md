@@ -1,11 +1,12 @@
 ---
 layout: layout-base.liquid
-title: Uses
-tags: footernav
+title: Uses | Discoliam
+pageTitle: Uses
+description: What to know what I use to make stuff? Well then...
 body-class: uses
 ---
 
-# {{title}}
+# {{pageTitle}}
 
 Inspired by [Wes Bos](https://wesbos.com/uses/) (as I found his resource very useful) this is a quick rundown of the things I use day to day for work / general messing around.
 

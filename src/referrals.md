@@ -1,11 +1,12 @@
 ---
 layout: layout-base.liquid
-title: Referrals
-tags: footernav
+title: Referrals | Discoliam
+pageTitle: Referrals
+description: You want cheaper stuff, I want cheaper stuff. Its win win.
 body-class: referrals
 ---
 
-# {{title}}
+# {{pageTitle}}
 
 I use a lot of services that often offer referral codes. If you end up signing up for a similar service, use the links below and we'll both get money off. To quote an animated Meerkat, simples.
 

@@ -1,7 +1,7 @@
 ---
 layout: layout-base.liquid
 title: Colophon
-tags: footernav
+description: Mostly an excuse to link to other things that helped me make this.
 body-class: colophon
 ---
 
