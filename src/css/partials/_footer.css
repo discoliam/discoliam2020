@@ -1,5 +1,6 @@
 /* Footer */
 .site-footer{
+  overflow: hidden;
   background-color: var(--dark);
   color: var(--light);
   text-align: center;
@@ -30,6 +31,9 @@
       font-weight: 600;
       margin: 0 10px;
       color: var(--secondary);
+      &.secondary{
+        font-size: 14px;
+      }
       &::after{
         display: none;
       }

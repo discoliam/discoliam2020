@@ -4,6 +4,7 @@ import smoothscroll from "smoothscroll-polyfill";
 // Import Interal
 
 import themeSwitcher from "./modules/theme-switcher";
+import menu from "./modules/menu";
 import ready from "./utils/ready";
 
 // Vars
@@ -12,6 +13,7 @@ html.className = html.className.replace("no-js", "js");
 
 function init() {
   themeSwitcher();
+  menu();
   smoothscroll.polyfill();
 }
 

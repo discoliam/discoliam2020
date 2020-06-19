@@ -12,6 +12,8 @@ I don't really like talking about myself, but, needs must. If you only read one 
 
 I'm a web developer and Technical Lead with 10 years of experience. I'm passionate about Front End Dev, Performance, A11y, Pizza, and shouty music.
 
+<div class="img-wrapper"><img src="/assets/photo.jpg" alt="Liam Richardson"></div>
+
 ## Not long Enough
 For about 10 years or so I've been building Websites, Applications, Digital Installations, and some other random bits in-between. This has been about a 50/50 split between full time at agencies, and as a freelancer working for one-person bands, to multi-million dollar startups and everyone in-between.
 
@@ -19,40 +21,117 @@ Over the years I've done a little bit of everything, but these days I've found m
 
 I've played an active part in all stages of the project lifecycle. Working closely with Designers and Clients directly to define project goals and deliverables, to working with different teams of designers and developers to build those deliverables. I've joined projects at the very start of the processes, and have also been parachuted in days from launch to fix those last-minute bugs or add new features.
 
-
 ## Skillz
 I don't know if this is useful or not, but here's a list of technologies, codes, or ideas I like to think I'm good at, or am super interested in. In no particular order:
 
-- HTML
-- CSS
-- JS (es6)
-- jQuery
-- Wordpress
-- Static Site Generators
-- Gatsby
-- Eleventy
-- Performance
-- Accessibility (A11y)
-- PHP
-- Ruby (sometimes on Rails)
-- ERB
-- Liquid
-- Shopify
-- Mustache
-- Handlebars
-- SVG's
-- HTML Emails (please god no)
-- Fabricator
-- Fractal
-- BEM
-- Timber
-- Twig
-- UX
-- NPM
-- Node
-- Gulp
-- Yarn
-- Grunt
+<div class="flex-list">
+  <div>
+    <h3>Core</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript (es6)</li>
+      <li>PHP</li>
+      <li>Ruby (sometimes on Rails)</li>
+      <li>SVG's</li>
+      <li>Canvas</li>
+      <li>Markdown</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Templating</h3>
+    <ul>
+      <li>ERB</li>
+      <li>Liquid</li>
+      <li>Mustache</li>
+      <li>Handlebars</li>
+      <li>Twig</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Libaries</h3>
+    <ul>
+      <li>jQuery</li>
+      <li>GreenSock</li>
+      <li>Infinite Scroll</li>
+      <li>Flickty</li>
+      <li>Isotope</li>
+      <li>Masonry</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Tools</h3>
+    <ul>
+      <li>Wordpress</li>
+      <li>WooComerce</li>
+      <li>Timber</li>
+      <li>ACF</li>
+      <li>Static Site Generators</li>
+      <li>Gatsby</li>
+      <li>Eleventy</li>
+      <li>Netlify CMS</li>
+    </ul>
+  </div>
+
+
+  <div>
+    <h3>Tooling</h3>
+    <ul>
+      <li>Gulp</li>
+      <li>Yarn</li>
+      <li>Grunt</li>
+      <li>Webpack</li>
+      <li>SASS / SCSS</li>
+      <li>LESS</li>
+      <li>css-preset-env</li>
+      <li>Bable</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Subjects</h3>
+    <ul>
+      <li>Performance</li>
+      <li>Accessibility (A11y)</li>
+      <li>BEM</li>
+      <li>Agile</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Platforms</h3>
+    <ul>
+      <li>Shopify</li>
+      <li>Fractal</li>
+      <li>BigCartel</li>
+      <li>Fabricator</li>
+      <li>Twitter</li>
+      <li>Google Maps</li>
+      <li>Instagram</li>
+      <li>YouTube</li>
+      <li>Vimeo</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Design</h3>
+    <ul>
+      <li>UI</li>
+      <li>UX</li>
+      <li>Sketch</li>
+      <li>Adobe XD</li>
+      <li>Photoshop</li>
+      <li>Zeplin</li>
+    </ul>
+  </div>
+
+</div>
+
+
+If the library/tool/system/platform/whatever you need doing isn't in the list above, please get in touch anyway. Chances are I either forgot to add it to the list, or I'd be keen to learn.
 
 ## Where in the world
 I'm currently living in <del>sunny</del> rainy [Vancouver, BC](https://en.wikipedia.org/wiki/Vancouver), which has been home for over 2 years now. I'm originally from the UK. I grew up in the town of [Fleet](https://en.wikipedia.org/wiki/Fleet,_Hampshire), went to [university](https://www.uwe.ac.uk/) in [Bristol](https://en.wikipedia.org/wiki/Bristol) and stayed for 10 years or so.

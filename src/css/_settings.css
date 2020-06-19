@@ -1,6 +1,5 @@
 /* Settings */
 
-
 /* Media Queries */
 @custom-media --viewport-small (min-width: 600px);
 @custom-media --viewport-medium (min-width: 768px);
@@ -51,10 +50,7 @@
   --base-timing: ease;
 
   /* Grid */
-  --gap: var(--gap);
-
-
-
+  --gap: 32px;
 }
 
 

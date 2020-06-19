@@ -1,0 +1,15 @@
+.flex-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: var(--gap);
+  & div{
+    /* flex: 0 0 30%; */
+    & ul {
+      list-style-type: none;
+      padding-left: 0;
+      li{
+        font-weight: bold;
+      }
+    }
+  }
+}
