@@ -7,17 +7,16 @@
     </a>
   </div>
 
-  <nav class="main-nav">
+  <nav class="main-nav" aria-labelledby="menu-toggle" aria-expanded="false">
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/uses">Uses</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <button id="menu-toggle" class="menu-toggle">
-    <span class="sr-only">Toggle Main </span>Menu
+  <button id="menu-toggle" class="menu-toggle" aria-haspopup="true" title="Site Navigation">
+    Menu
   </button>
-
 
   <button id="theme_toggle" class="theme-toggle">
     <span class="sr-only">Chage the theme to <span id="theme_readout"></span></span>

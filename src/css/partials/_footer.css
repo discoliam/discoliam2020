@@ -27,12 +27,16 @@
       display: inline-block;
       text-transform: uppercase;
       font-family: var(--font-heading);
-      font-size: 21px;
+      font-size: 24px;
       font-weight: 600;
       margin: 0 10px;
       color: var(--secondary);
+      letter-spacing: 1px;
       &.secondary{
         font-size: 14px;
+        &:first-of-type {
+          margin-top: 15px;
+        }
       }
       &::after{
         display: none;
