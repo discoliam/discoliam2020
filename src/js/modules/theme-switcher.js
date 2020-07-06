@@ -3,23 +3,17 @@ export default function () {
 
     // let theme;
     let theme_OS = window.matchMedia('(prefers-color-scheme: dark)');
-    let theme;
+
     const toggle = document.getElementById("theme_toggle");
     const toggleText = document.getElementById('theme_readout');
 
-    console.log(theme);
+    if (window.matchMedia('(prefers-color-scheme: dark)')) {
+      localStorage.setItem('theme', 'dark');
+    } else {
+      localStorage.setItem('theme', 'light');
+    }
 
     theme_apply();
-
-    // theme_OS.addEventListener('change', function (e) {
-    //   'use strict';
-    //   if (e.matches) {
-    //     theme = 'light';
-    //   } else {
-    //     theme = 'dark';
-    //   }
-    //   theme_apply();
-    // });
 
     toggle.addEventListener("click", function(event){
       event.preventDefault();
