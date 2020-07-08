@@ -87,7 +87,7 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
       <li>SASS / SCSS</li>
       <li>LESS</li>
       <li>css-preset-env</li>
-      <li>Bable</li>
+      <li>Babel</li>
     </ul>
   </div>
 
@@ -127,6 +127,21 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
       <li>Zeplin</li>
     </ul>
   </div>
+
+  <div>
+    <h3>Project Management</h3>
+    <ul>
+      <li>Teamwork</li>
+      <li>Trello</li>
+      <li>Asana</li>
+      <li>Jira</li>
+      <li>Basecamp</li>
+      <li>Redmine</li>
+      <li>DoneDone</li>
+      <li>Harvest</li>
+    </ul>
+  </div>
+
 
 </div>
 
