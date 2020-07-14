@@ -1,0 +1,19 @@
+{
+  "intro": "Here's a selection of my work from the past few years. There's a mix of freelance projects and work from full-time roles. I've tried to link to anything that is still online, but contrary to most twitter controversies, the internet sometimes forgets.",
+  "projects": [
+    {
+      "name": "Wallop",
+      "client": "Wallop",
+      "role": "Development / UX / IA / UI",
+      "desc": "lorem ipsum",
+      "url": "https://www.wallop.ca/"
+    },
+    {
+      "name": "Surf Grove",
+      "client": "Wallop",
+      "role": "Development",
+      "desc": "lorem ipsum",
+      "url": "https://surfgrove.com/"
+    }
+  ]
+}

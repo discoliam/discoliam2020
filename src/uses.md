@@ -1,7 +1,7 @@
 ---
 layout: layout-base.liquid
 title: Uses | Discoliam
-pageTitle: Uses
+pageTitle: /uses
 description: What to know what I use to make stuff? Well then...
 body-class: uses
 ---

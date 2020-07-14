@@ -1,0 +1,51 @@
+---
+layout: layout-home.liquid
+title: Portfolio | Discoliam
+pageTitle: Portfolio
+description: A short histroy of projects I've been lucky enough to work on.
+body-class: portfolio
+---
+
+
+<section class="projects-intro">
+  <div class="container  single-col">
+    <div class="grid-col">
+      <h1>{{pageTitle}}</h1>
+      <p>{{intro}}</p>
+    </div>
+  </div>
+</section>
+
+{%- for project in projects -%}
+  <section class="project">
+    <div class="container double-col">
+      <div class="grid-col">
+        <div class="portfolio-img">
+          <img src="/assets/bg-{{ project.name | downcase | replace: ' ', '-' }}.jpg" alt="{{ project.name }}">
+          <svg class="icon svg-{{project.name | downcase | replace: ' ', '-' }}"><use xlink:href="#{{project.name | downcase | replace: ' ', '-' }}"></use></svg>
+        </div>
+      </div>
+      <div class="grid-col project-info">
+        <h2>{{ project.name }}</h2>
+        <dl class="project-details">
+          <dt>Client</dt>
+          <dd>{{ project.client }}</dd>
+          <dt>Role</dt>
+          <dd>{{ project.role }}</dd>
+        </dl>
+        <p>{{ project.desc }}</p>
+        <p><a href="{{ project.url }}">View {{ project.name }}</a></p>
+      </div>
+    </div>
+  </section>
+{%- endfor -%}
+
+<section class="projects-intro">
+  <div class="container  single-col">
+    <div class="grid-col">
+      <h3>Like what you see?</h3>
+      <p>You can learn more <a href="/about">about me</a> and the work I do. If you need some help with your project or need a helping hand in the studio, or just want to discuss star wars fan theories at length, please get in touch.</p>
+      <a href="mailto:hello@discoliam.com" class="btn">Email Me</a>
+    </div>
+  </div>
+</section>

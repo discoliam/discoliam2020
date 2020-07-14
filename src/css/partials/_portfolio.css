@@ -1,0 +1,57 @@
+/* Two col Layout */
+.container.double-col{
+  padding-bottom: 85px;
+  @media (--viewport-medium) {
+    display: grid;
+    grid-template-columns: [col1-start] repeat(6, 1fr) [col1-end col2-start] repeat(6, 1fr) [col2-end];
+    gap: var(--gap);
+    & .grid-col{
+      &:nth-child(1) {
+        grid-area: col1;
+      }
+      &:nth-child(2) {
+        grid-area: col2;
+      }
+    }
+  }
+  @media (--viewport-large) {
+    grid-template-columns: 1fr [col1-start] repeat(5, 1fr) [col1-end col2-start] repeat(5, 1fr) [col2-end] 1fr;
+  }
+}
+
+.project:nth-child(2n+1){
+  @media (--viewport-medium) {
+    & .grid-col{
+      &:nth-child(1) {
+        grid-area: col2;
+      }
+      &:nth-child(2) {
+        grid-area: col1;
+      }
+    }
+  }
+}
+
+.portfolio-img{
+  position: relative;
+  & svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+  }
+}
+
+
+dl.project-details dt {
+  float: left;
+  clear: left;
+  font-weight: 700;
+  display: inline-block;
+  margin-right: 10px;
+  width: 50px;
+  &::after {
+    content: ":";
+  }
+}
