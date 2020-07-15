@@ -2,18 +2,46 @@
   "intro": "Here's a selection of my work from the past few years. There's a mix of freelance projects and work from full-time roles. I've tried to link to anything that is still online, but contrary to most twitter controversies, the internet sometimes forgets.",
   "projects": [
     {
+      "name": "Surf Grove",
+      "client": "Wallop",
+      "role": "Full Stack Development",
+      "desc": "We developed a full suite of components within WordPress to allow Surf Grove to expand their website as they are able to open up the campsite. Varied components also allow Surf Groves unique brand to shine through, with flexible color and iconography options built into every component.",
+      "url": "https://surfgrove.com/"
+    },
+    {
       "name": "Wallop",
       "client": "Wallop",
-      "role": "Development / UX / IA / UI",
-      "desc": "lorem ipsum",
+      "role": "Full Stack Development / UX / IA",
+      "desc": "This design refresh allowed us to go back and refactor our initial approach to Wallops' new brand. Working closely with the Lead Designer and Director of Marketing, we simplified then improved the design language, giving a cleaner and more useable feel to the brand. This also allowed us to improve the UX, Performance, Accessibility, and Technical SEO of the site.",
       "url": "https://www.wallop.ca/"
     },
     {
-      "name": "Surf Grove",
+      "name": "Graduate Hotels",
       "client": "Wallop",
-      "role": "Development",
-      "desc": "lorem ipsum",
-      "url": "https://surfgrove.com/"
+      "role": "Technical Architecture / Maintenance / A11y / Performace",
+      "desc": "I helped maintain and develop features of the Graduate Hotels site as they rapidly expanded across the US and international markets. We also refactored the entire site to meet Level A Accessibility requirements. My final work for them was to develop a Technical Architecture and Specification for a new site that, when completed, will allow them to increase their growth without the traditional pain-points.",
+      "url": "https://www.graduatehotels.com/"
+    },
+    {
+      "name": "Bath Ruby",
+      "client": "Bath Ruby",
+      "role": "Static Site Development",
+      "desc": "Simon Starr asked me to come on board, and in collaboration with Richard Windsor, develop the websites for the 2016 & 2018 editions of Bath Ruby. These were delivered as Middleman based static sites, as it seemed rude to use anything else. The frontend was also separated off to allow the development of other tools (such as live schedules used at the event) by Bath Ruby's team of Volunteers.",
+      "url": "https://bathruby.uk/"
+    },
+    {
+      "name": "Lounges",
+      "client": "Loungers",
+      "role": "Full Stack Development / Email Development",
+      "desc": "My relationship with Loungers lasted a few years. During this time I contributed to and Developed their Email Marketing and Websites for the main brand and the then more recent Cosy Clubs. We tackled many challenges including an individual brand, how to manage 100's of locations unique requirements, and making sure users found the information they needed in a timely, yet engaging manner. ",
+      "url": "https://thelounges.co.uk/"
+    },
+    {
+      "name": "Calvium",
+      "client": "Calvium",
+      "role": "Full Stack Development",
+      "desc": "Calvium wanted to refresh their site, emphasizing their brand, and further allow them to tell the stories of our clients in a clean, clear, and classy way. Myself and Ben Hostler worked with the internal team to develop a site that could meet those requirements, and give users a high-end experience Calvium delivers though its own ground-breaking work.",
+      "url": "https://calvium.com/"
     }
   ]
 }
