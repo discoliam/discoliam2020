@@ -60,7 +60,7 @@ I'll be the first to say I'm not very good at this, but I took a class in collag
 
 ## Other
 
-*  My phone is a [Google Pixel 2](https://en.wikipedia.org/wiki/Pixel_2) that is starting to show its age. I'm putting off upgrading, but I suspect I might finally jump to an iPhone this year.
+*  My phone is a [iPhone 12](https://www.apple.com/iphone-12/) after spending 10 years on android. Not 100% sure it was worth the cost of switching, but I do like not having a Google based phone.
 
 * I also have an [iPad 6th Generation](https://en.wikipedia.org/wiki/IPad_(2018)) which I mostly use for looking up recipes in the kitchen or watching movies on public transport.
 

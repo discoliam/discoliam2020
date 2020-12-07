@@ -32,7 +32,7 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
       <li>CSS</li>
       <li>JavaScript (es6)</li>
       <li>PHP</li>
-      <li>Ruby (sometimes on Rails)</li>
+      <li>Ruby (mostly on Rails)</li>
       <li>SVG's</li>
       <li>Canvas</li>
       <li>Markdown</li>
@@ -131,6 +131,8 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
   <div>
     <h3>Project Management</h3>
     <ul>
+      <li>Mavenlink</li>
+      <li>Wrike</li>
       <li>Teamwork</li>
       <li>Trello</li>
       <li>Asana</li>
