@@ -52,15 +52,9 @@ I have a backup setup for Beach Trips/camping etc, which is a pair of [Shure SE2
 
 If home alone or camping etc, I have a [Minirig](https://minirigs.co.uk/speakers/bluetooth-minirig-3). Mines a weird Hybrid of an original Bluetooth Model, with the chip-set and battery from a 2 from when I had it repaired. Its a bit bassy for my music tastes, but you can't beat its size vs loudness ratio. I often think about picking up another one along with a [Minirig Subwoofer](https://minirigs.co.uk/speakers/minirig-subwoofer-3) to build a small home HiFi setup that's also portable. I wonder how that would play with the Record player when we do move back home.
 
-## Photography / Videography
-
-I'll be the first to say I'm not very good at this, but I took a class in collage and its always been a bit of a hobby. I picked up a [Fuji X-T20](https://fujifilm-x.com/global/products/cameras/x-t20/) a couple of years back and I'm still learning how to use it. I pair it with [XF18-55mm
-](https://fujifilm-x.com/global/products/lenses/xf18-55mmf28-4-r-lm-ois/) and [XC50-230mm
-](https://fujifilm-x.com/global/products/lenses/xc50-230mmf45-67-ois-2/) lenses. Next on my list is a do it all prime.
-
 ## Other
 
-*  My phone is a [iPhone 12](https://www.apple.com/iphone-12/) after spending 10 years on android. Not 100% sure it was worth the cost of switching, but I do like not having a Google based phone.
+*  My phone is a [iPhone 12](https://www.apple.com/iphone-12/) after spending 10 years on Android. Not 100% sure it was worth the cost of switching, but I do like not having a Google based phone.
 
 * I also have an [iPad 6th Generation](https://en.wikipedia.org/wiki/IPad_(2018)) which I mostly use for looking up recipes in the kitchen or watching movies on public transport.
 
@@ -68,6 +62,5 @@ I'll be the first to say I'm not very good at this, but I took a class in collag
 
 * For coffee, I use an [Porlex Mini](https://www.porlexgrinders.com/products/porlex-mini-grinder ) for grinding. For brewing, I now have a few options:
   * Mostly at home I use the [AeroPress](https://aeropress.com/), which I switch between metal and paper filters.
-  * For pour-over at home or on the road I use a [MiiR Pourigami](https://www.miir.com/collections/pourigami-travel-coffee-system/products/pourigami-portable-travel-coffee-dripper), and a [CoffeeSock](https://coffeesock.com/).
-  * I've recently got into using an old Mocha Pot again. I find this is the best bet If I need to use up some bad store brought coffee we sometimes have lying around.
+  * For pour-over at home, I use a [Hario V60](https://www.hario.co.uk/products/hario-v60-drip-decanter-pour-over-coffee-maker-700ml) and when on the road I use a [MiiR Pourigami](https://www.miir.com/collections/pourigami-travel-coffee-system/products/pourigami-portable-travel-coffee-dripper).
 * As for techniques, I'll do whatever [James Hoffmann](https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ) tells me too.

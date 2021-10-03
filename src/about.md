@@ -160,6 +160,7 @@ I've also worked in Continental Europe, Australia, and the US for some shorter s
 - [Twitter](https://twitter.com/discoliam/)
 - [Instagram](https://www.instagram.com/discoliam/)
 - [LinkedIn](https://www.linkedin.com/in/liamrichardson/)
+- [Polywork](https://www.polywork.com/discoliam)
 - [Github](https://github.com/discoliam/)
 - [CodePen](https://codepen.io/discoliam/)
 - [Last.FM](https://www.last.fm/user/discoliam)
