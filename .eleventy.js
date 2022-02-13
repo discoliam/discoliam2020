@@ -4,18 +4,19 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({ "src/images": "assets" });
 
-
   // Update Markdown with Plugins
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");
   let options = {
     html: true
   };
+
   let markdownLib = markdownIt(options).use(markdownItAnchor, {
     permalink: true,
     permalinkClass: "heading-link",
     permalinkSymbol: "#"
   });
+
   eleventyConfig.setLibrary("md", markdownLib);
 
 
@@ -41,12 +42,12 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       data: "data",
-      input: "src/",
+      input: "src",
       includes: "_includes",
       output: "build"
     },
 
-    // 1.1 Enable elventy to pass dirs specified above
+    // Enable elventy to pass dirs specified above
     passthroughFileCopy: true,
 
     // Defult Template Engine
