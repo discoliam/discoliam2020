@@ -1,6 +1,34 @@
 {
   "intro": "Here's a selection of my work from the past few years. There's a mix of freelance projects and work from full-time roles. I've tried to link to anything that is still online, but contrary to most twitter controversies, the internet sometimes forgets.",
-  "projects": [
+  "projects":
+  [
+    {
+      "name": "Bower Collective",
+      "role": "Front End Development",
+      "desc": "Building a comprehensive component library for the custom-built customer portal, replacing Shopify's built-in account system.",
+      "url": "https://bowercollective.com/"
+    },
+    {
+      "name": "Zeno",
+      "client": "Massive Media",
+      "role": "Full Stack Development",
+      "desc": "After re-branding, Zeno needed a brand new website to help support its goal of installing solar solutions in over 1 million homes by 2040. This was a fully responsive WordPress build using Gutenberg, ACF, and a host of other fun technologies.",
+      "url": "https://www.livezeno.com/"
+    },
+    {
+      "name": "Precision Sails",
+      "client": "Massive Media",
+      "role": "Full Stack Development",
+      "desc": "Coming Soon...",
+      "url": "https://www.precisionsailloft.com/"
+    },
+    {
+      "name": "PH5",
+      "client": "Massive Media",
+      "role": "Full Stack Development",
+      "desc": "Coming Soon...",
+      "url": "http://ph5.ca/"
+    },
     {
       "name": "Surf Grove",
       "client": "Wallop",
@@ -27,7 +55,6 @@
       "client": "Bath Ruby",
       "role": "Static Site Development",
       "desc": "Simon Starr asked me to come on board, and in collaboration with Richard Windsor, develop the websites for the 2016 & 2018 editions of Bath Ruby. These were delivered as Middleman based static sites, as it seemed rude to use anything else. The frontend was also separated off to allow the development of other tools (such as live schedules used at the event) by Bath Ruby's team of Volunteers.",
-      "url": "https://bathruby.uk/"
     },
     {
       "name": "Lounges",
@@ -41,7 +68,6 @@
       "client": "Calvium",
       "role": "Full Stack Development",
       "desc": "Calvium wanted to refresh their site, emphasizing their brand, and further allow them to tell the stories of our clients in a clean, clear, and classy way. Myself and Ben Hostler worked with the internal team to develop a site that could meet those requirements, and give users a high-end experience Calvium delivers though its own ground-breaking work.",
-      "url": "https://calvium.com/"
     }
   ]
 }

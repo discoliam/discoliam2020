@@ -16,58 +16,58 @@ For the past couple of years, I've been using [Visual Studio Code](https://code.
 
 In VSCode, I'm using Wes's [Cobalt2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) and the [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
 
-I purchased [Dank Mono](https://dank.sh/) for all my mono-spaced needs. Unfortunately, I don't think it is being developed anymore, but for the price, it's a great font, and I find the ligatures and italics super useful when coding.
+I've recently switched to [Inconsolata](https://fonts.google.com/specimen/Inconsolata) for all my mono-spaced needs. Before that, I was using [Dank Mono](https://dank.sh/).
 
-If not using VSCodes built-in Terminal, I've been running [Hyper](https://hyper.is/), but I don't open it that often.
+After experimenting with a few different terminals, I've switched back to [iTerm2](https://iterm2.com/). I don't normally open it that often, as I normally use VScodes built-in terminal.
 
 I switched to [ZSH](https://ohmyz.sh/) a couple of years ago, again stealing [Wes's](https://github.com/wesbos/Cobalt2-iterm) setup, and I'm pretty happy with that.
+
+I've been using [Fig](https://fig.io/) for a few months now and really like it, especially as I can't remember my branch names half the time.
 
 ##  Desktop Apps
 
 I moved back to [Firefox](https://www.mozilla.org/firefox/) when Quantum came out. Some performance issues on heavy animations aside, I'm very happy with it, especially having fewer eggs in the Google basket.
 
-If I have to do any vector work, [Sketch](https://www.sketch.com/) is my go-to. I'm also a big [Zeplin](https://zeplin.io/) fan. I'm slowly dipping my toes into [Adobe XD](https://www.adobe.com/products/xd.html), so far I quite like it.
+For design stuff, I'm now fully onboard the [Figma](https://www.figma.com) train. It's great.
 
 ##  Hardware
 
-I have a 13inch [Macbook Pro (2016)](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-3.3-13-late-2016-retina-display-touch-bar-specs.html). I don't love it, but my mid-2012 machine was falling apart.
+I have a [14 Inch Macbook Pro (2021)](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m1-pro-8-core-cpu-14-core-gpu-14-2021-specs.html). I wonder if I didn't need the extra RAM and power over the Air, but in the end, it was the extra screen real estate that sold it to me.
 
-I picked up a refurbished [LG Ultrafine 4K](https://www.apple.com/ca/shop/product/HMUA2VC/A/lg-ultrafine-4k-display?fnode=8a) display, which I like for the size/price I found.
+When I'm at home, it's hooked up to a [Dell UltraSharp 34 Curved USB-C Monitor (U3419W)](https://uk.pcmag.com/monitors/121496/dell-ultrasharp-34-curved-usb-c-monitor-u3419w) I managed to pick up from a Ph.D. student who was selling it for far too cheap. My first curved monitor, but I'm impressed.
 
 My mouse is a [Logitech MX Master 3](https://www.logitech.com/en-ca/product/mx-master-3) after I had some pain in my wrist, which seems to have solved the issue.
 
-Keyboard wise I'm using the Apple Magic Keyboard with Numeric Keypad. [Space Gray and Wireless](https://www.apple.com/ca/shop/product/MRMH2LL/A/magic-keyboard-with-numeric-keypad-us-english-space-grey). Thought I'm getting close to pulling the trigger and building a Mechanical Keyboard.
+Keyboard wise I'm using the Apple Magic Keyboard with Numeric Keypad. [Space Gray and Wireless](https://www.apple.com/ca/shop/product/MRMH2LL/A/magic-keyboard-with-numeric-keypad-us-english-space-grey). I tried a few mechanical keyboards but ultimately preferred the low-profile style of the Apple model. When it breaks I'll eventually replace it with one with TouchID built-in.
 
-My mouse mat is a [Steelseries QCK ](https://steelseries.com/gaming-mousepads/qck-series#qck-large), mostly because it was black, thin, and large.
+## Desk
+During the winter of 2021/22, I decided to build a desk. The wood and hairpin legs were purchased from [Leeds Wood Recycling](https://www.leedswoodrecycling.co.uk/) and I then spent about 20 hours sanding off the oil and concrete on them. It's pretty wonky, has a definite curve to it, but I'm super happy with how it came out. I'm planning on building another in the summer, and this one will get donated to my father.
+
+To protect my handy work I'm using a [Dotgrid Black deskmat](https://www.dotgrid.co/products/vegan-leather-desk-mat-black), mostly as it had a good review from (David Darnes)[https://setups.co/posts/david-darnes].
 
 ##  Audio
 
-I'm not an audiophile, but I like to think I've got a decent-ish setup for my current situation. Unfortunately, the record player and LP collection are back in Blighty, so Apple Music will have to do for now.
+At home, I have a Numark tt-1700 turntable, which I was given by my step-brother as he no longer used it. It's not my ideal Turntable, and I'll upgrade it one day, but for now, it works. That's hooked up to a [ProJect Phono Box E](https://www.project-audio.com/en/product/phono-box-e/) and then directly into a set of [Mackie](https://mackie.com/en/products/studio-monitoring/cr-x-series) CR3s (which have since been discontinued).
 
-For headphones, I have a pair of [Shure SE425-CL](https://www.shure.com/en-GB/products/earphones/se425cl) and upgraded the cable to a [Shure RMCE-UNI](https://www.shure.com/en-GB/products/accessories/rmce_uni). I got them off eBay from a recording studio having a clear-out, so they were near enough unused and pretty cheap.
+It's a small/cheap ish setup, which I'm planning on investing a bit more into this year. A Proper Headphone Amp and DAC will be coming, probably from [JDS Labs](https://jdslabs.com/).
 
-Be it via my Phone and Bluetooth, or wired as a USB DAC to the laptop, I use a [BTR5](https://www.fiio.com/btr5) amp. I think it sounds pretty great for what it is and uses [aptX](https://www.aptx.com/) when in Bluetooth mode which will give me the best wireless audio I can hope for now.
+On the go, I'm using a pair of [Soundcore Liberty Air 2s](https://uk.soundcore.com/collections/true-wireless/products/a3910). I'm not sure how I ended up with these, but they will do until Apple release a new Airpod Pro.
 
-I have a backup setup for Beach Trips/camping etc, which is a pair of [Shure SE215's](https://www.shure.com/en-GB/products/earphones/se215) paired with a [Fiio μBTR](https://www.fiio.com/%CE%BCbtr). It gives me slightly more battery life compared to the BTR5.
+I've still got a pair of [Shure SE215's](https://www.shure.com/en-GB/products/earphones/se215), that I use with a [Fiio BTR5](https://www.fiio.com/btr5) amp/DAC. But I don't get these out very often anymore.
 
-If home alone or camping etc, I have a [Minirig](https://minirigs.co.uk/speakers/bluetooth-minirig-3). Mines a weird Hybrid of an original Bluetooth Model, with the chip-set and battery from a 2 from when I had it repaired. Its a bit bassy for my music tastes, but you can't beat its size vs loudness ratio. I often think about picking up another one along with a [Minirig Subwoofer](https://minirigs.co.uk/speakers/minirig-subwoofer-3) to build a small home HiFi setup that's also portable. I wonder how that would play with the Record player when we do move back home.
+## Coffee
+This was the big lockdown hobby that now dominates my life. I've decided not to go down the espresso at home route, which does mean the flat white in town is always a nice treat.
 
-## Photography / Videography
+For grinding, I use a [Wilfa Svart](https://www.wilfa.co.uk/product/kitchen/black-aroma/) at home, and a [Porlex Mini](https://www.porlexgrinders.com/products/porlex-mini-grinder) when camping or on the road.
 
-I'll be the first to say I'm not very good at this, but I took a class in collage and its always been a bit of a hobby. I picked up a [Fuji X-T20](https://fujifilm-x.com/global/products/cameras/x-t20/) a couple of years back and I'm still learning how to use it. I pair it with [XF18-55mm
-](https://fujifilm-x.com/global/products/lenses/xf18-55mmf28-4-r-lm-ois/) and [XC50-230mm
-](https://fujifilm-x.com/global/products/lenses/xc50-230mmf45-67-ois-2/) lenses. Next on my list is a do it all prime.
+For Brewing, I use a [Hario V60](https://www.hario.co.uk/products/hario-v60-drip-decanter-pour-over-coffee-maker-700ml)  or an [AeroPress](https://aeropress.com/), of which for both I have a variety of paper, metal, and cloth filters. When traveling, I'll normally carry a [MiiR Pourigami](https://www.miir.com/collections/pourigami-travel-coffee-system/products/pourigami-portable-travel-coffee-dripper) if we're going somewhere without access to a good brewing system.
+
+As for techniques, I'll do whatever [James Hoffmann](https://www.jameshoffmann.co.uk/) recommends.
 
 ## Other
 
-*  My phone is a [iPhone 12](https://www.apple.com/iphone-12/) after spending 10 years on android. Not 100% sure it was worth the cost of switching, but I do like not having a Google based phone.
+*  My phone is a [iPhone 12](https://www.apple.com/iphone-12/) after spending 10 years on Android. Not 100% sure it was worth the cost of switching, but I do like not having a Google-based phone.
 
 * I also have an [iPad 6th Generation](https://en.wikipedia.org/wiki/IPad_(2018)) which I mostly use for looking up recipes in the kitchen or watching movies on public transport.
 
-* My daily backpack is a hand made Daysack by [Big Top](https://www.instagram.com/bigxtop/). It's fully waterproof (rain-wise), I've had it for 6 years and I imagine it'll last forever.
-
-* For coffee, I use an [Porlex Mini](https://www.porlexgrinders.com/products/porlex-mini-grinder ) for grinding. For brewing, I now have a few options:
-  * Mostly at home I use the [AeroPress](https://aeropress.com/), which I switch between metal and paper filters.
-  * For pour-over at home or on the road I use a [MiiR Pourigami](https://www.miir.com/collections/pourigami-travel-coffee-system/products/pourigami-portable-travel-coffee-dripper), and a [CoffeeSock](https://coffeesock.com/).
-  * I've recently got into using an old Mocha Pot again. I find this is the best bet If I need to use up some bad store brought coffee we sometimes have lying around.
-* As for techniques, I'll do whatever [James Hoffmann](https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ) tells me too.
+* My daily backpack is a handmade Daysack by [Big Top](https://www.instagram.com/bigxtop/). It's fully waterproof (rain-wise), I've had it for 8 years and I imagine it'll last forever.

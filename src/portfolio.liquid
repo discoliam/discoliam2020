@@ -28,13 +28,21 @@ body-class: portfolio
       <div class="grid-col project-info">
         <h2>{{ project.name }}</h2>
         <dl class="project-details">
-          <dt>Client</dt>
-          <dd>{{ project.client }}</dd>
-          <dt>Role</dt>
-          <dd>{{ project.role }}</dd>
+         {% if project.client %}
+            <dt>Client</dt>
+            <dd>{{ project.client }}</dd>
+          {% endif %}
+          {% if project.role %}
+            <dt>Role</dt>
+            <dd>{{ project.role }}</dd>
+          {% endif %}
         </dl>
-        <p>{{ project.desc }}</p>
-        <p><a href="{{ project.url }}">View {{ project.name }}</a></p>
+        {% if project.desc %}
+          <p>{{ project.desc }}</p>
+        {% endif %}
+        {% if project.url %}
+          <p><a href="{{ project.url }}">View {{ project.name }}</a></p>
+        {% endif %}
       </div>
     </div>
   </section>
