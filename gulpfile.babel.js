@@ -19,6 +19,7 @@ const named = require('vinyl-named');
 //==============================================================================
 const PRODUCTION = yargs.argv.prod;
 
+
 // Post CSS
 gulp.task('css', function() {
   return gulp.src('./src/css/app.css')
@@ -27,10 +28,10 @@ gulp.task('css', function() {
     postcssNesting(),
     postcssPresetEnv({ stage: 1 }),
     postcssScrollbar(),
-    purgecss({
-      content: ['src/**/*.liquid', 'src/**/*.md'],
-      whitelist: ["body", "a","abbr","address","area","b","blockquote","br","button","canvas","caption","cite","code","dd","del","dl","dt","em","fieldset","figure","h1","h2","h3","h4","h5","h6","hgroup","hr","i","img","input","label","li","link","mark","ol","p","pre","q","s","small","span","strong","sub","sup","table","tbody","thead","tfoot","td","th","tr","time","ul","video","heading-link","is-open", "first-of-type"]
-    }),
+    // purgecss({
+    //   content: ['src/**/*.liquid', 'src/**/*.md'],
+    //   whitelist: ["body", "a","abbr","address","area","b","blockquote","br","button","canvas","caption","cite","code","dd","del","dl","dt","em","fieldset","figure","h1","h2","h3","h4","h5","h6","hgroup","hr","i","img","input","label","li","link","mark","ol","p","pre","q","s","small","span","strong","sub","sup","table","tbody","thead","tfoot","td","th","tr","time","ul","video","heading-link","is-open", "first-of-type", ".heading-link"]
+    // }),
     autoprefixer(),
     cssnano({
       preset: ['default', {

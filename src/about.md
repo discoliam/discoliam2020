@@ -35,7 +35,7 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
       <li>JavaScript (es6)</li>
       <li>PHP</li>
       <li>Ruby (mostly on Rails)</li>
-      <li>SVG's</li>
+      <li>SVG</li>
       <li>Canvas</li>
       <li>Markdown</li>
     </ul>
@@ -44,11 +44,11 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
   <div>
     <h3>Templating</h3>
     <ul>
-      <li>ERB</li>
+      <li>Twig</li>
       <li>Liquid</li>
       <li>Mustache</li>
       <li>Handlebars</li>
-      <li>Twig</li>
+      <li>ERB</li>
     </ul>
   </div>
 
@@ -61,19 +61,23 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
       <li>Flickty</li>
       <li>Isotope</li>
       <li>Masonry</li>
+      <li>Slick</li>
+      <li>Chart.JS</li>
     </ul>
   </div>
 
   <div>
     <h3>Tools</h3>
     <ul>
+      <li>Vue</li>
+      <li>Storybook</li>
       <li>Wordpress</li>
       <li>WooComerce</li>
       <li>Timber</li>
       <li>ACF</li>
       <li>Static Site Generators</li>
-      <li>Gatsby</li>
       <li>Eleventy</li>
+      <li>Gatsby</li>
       <li>Netlify CMS</li>
     </ul>
   </div>
@@ -81,10 +85,13 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
   <div>
     <h3>Tooling</h3>
     <ul>
+      <li>Webpack</li>
+      <li>Vite</li>
+      <li>Rollup</li>
+      <li>Parcel</li>
       <li>Gulp</li>
       <li>Yarn</li>
       <li>Grunt</li>
-      <li>Webpack</li>
       <li>SASS / SCSS</li>
       <li>LESS</li>
       <li>css-preset-env</li>
@@ -106,6 +113,7 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
     <h3>Platforms</h3>
     <ul>
       <li>Shopify</li>
+      <li>Webflow</li>
       <li>Fractal</li>
       <li>BigCartel</li>
       <li>Fabricator</li>
@@ -122,6 +130,7 @@ I don't know if this is useful or not, but here's a list of technologies, codes,
     <ul>
       <li>UI</li>
       <li>UX</li>
+      <li>Figma</li>
       <li>Sketch</li>
       <li>Adobe XD</li>
       <li>Photoshop</li>
@@ -151,7 +160,7 @@ If the library/tool/system/platform/whatever you need doing isn't in the list ab
 
 ## Where in the world
 
-I'm currently living in <del>sunny</del> rainy [Bristol, UK](https://en.wikipedia.org/wiki/Bristol), after spending just under 4 years in [Vancouver, BC](https://en.wikipedia.org/wiki/Vancouver). I grew up in the town of [Fleet](https://en.wikipedia.org/wiki/Fleet,_Hampshire), went to [university](https://www.uwe.ac.uk/) in Bristol and stayed for 10 years or so.
+I'm currently living in <del>sunny</del> rainy [Bristol, UK](https://en.wikipedia.org/wiki/Bristol), after spending just under 4 years in [Vancouver, BC](https://en.wikipedia.org/wiki/Vancouver). I grew up in the town of [Fleet](https://en.wikipedia.org/wiki/Fleet,_Hampshire), went to [university](https://www.uwe.ac.uk/) in Bristol and have give or take been based there ever since.
 
 I've also worked in Continental Europe, Australia, and the US for some shorter stints of time over the years.
 
@@ -165,6 +174,7 @@ I've also worked in Continental Europe, Australia, and the US for some shorter s
 - [CodePen](https://codepen.io/discoliam/)
 - [Last.FM](https://www.last.fm/user/discoliam)
 - [Letterboxd](https://letterboxd.com/discoliam/)
+- [Discogs](https://www.discogs.com/user/discoliam)
 
 ## Extracurricular
 

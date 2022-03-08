@@ -32,7 +32,7 @@
 
 /* Buttons */
 .btn{
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   border: solid 2px var(--alt);
   font-size: .75rem; /* 12px */
   font-weight: 600;

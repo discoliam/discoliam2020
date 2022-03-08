@@ -24,6 +24,9 @@
     & .grid-col{
       &:nth-child(1) {
         grid-area: col2;
+        & .portfolio-img::before{
+          transform: rotate(4deg) translate(5%, -2.5%);
+        }
       }
       &:nth-child(2) {
         grid-area: col1;
@@ -34,14 +37,33 @@
 
 .portfolio-img{
   position: relative;
+  & img{
+    z-index: 1;
+    position:relative;
+    border-radius: var(--border-radius);
+  }
   & svg{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--white);
+    z-index: 2;
+  }
+  &::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-4deg) translate(-5%, 2.5%);
+    background-color: var(--alt);
+    z-index: 0;
+    border-radius: var(--border-radius);
   }
 }
+
 
 
 dl.project-details dt {

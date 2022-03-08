@@ -41,7 +41,7 @@ body-class: portfolio
           <p>{{ project.desc }}</p>
         {% endif %}
         {% if project.url %}
-          <p><a href="{{ project.url }}">View {{ project.name }}</a></p>
+          <p><a class="btn" href="{{ project.url }}" target="_blank=" rel="noopener noreferrer nofollow" aria-label="Visit the {{ project.name }} website">Visit the site</a></p>
         {% endif %}
       </div>
     </div>

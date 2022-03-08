@@ -9,6 +9,12 @@
       "url": "https://bowercollective.com/"
     },
     {
+      "name": "Spin",
+      "role": "Accesability Consultant / Webflow Developer",
+      "desc": "Coming soon...",
+      "url": "https://spin.app"
+    },
+    {
       "name": "Zeno",
       "client": "Massive Media",
       "role": "Full Stack Development",
@@ -21,13 +27,6 @@
       "role": "Full Stack Development",
       "desc": "Coming Soon...",
       "url": "https://www.precisionsailloft.com/"
-    },
-    {
-      "name": "PH5",
-      "client": "Massive Media",
-      "role": "Full Stack Development",
-      "desc": "Coming Soon...",
-      "url": "http://ph5.ca/"
     },
     {
       "name": "Surf Grove",
@@ -53,8 +52,8 @@
     {
       "name": "Bath Ruby",
       "client": "Bath Ruby",
-      "role": "Static Site Development",
-      "desc": "Simon Starr asked me to come on board, and in collaboration with Richard Windsor, develop the websites for the 2016 & 2018 editions of Bath Ruby. These were delivered as Middleman based static sites, as it seemed rude to use anything else. The frontend was also separated off to allow the development of other tools (such as live schedules used at the event) by Bath Ruby's team of Volunteers.",
+      "role": "Full Stack Development",
+      "desc": "Simon Starr asked me to come on board, and in collaboration with Richard Windsor, develop the websites for the 2016 & 2018 editions of Bath Ruby. These were delivered as Middleman based static sites, as it seemed rude to use anything else. The frontend was also separated off to allow the development of other tools (such as live schedules used at the event) by Bath Ruby's team of Volunteers."
     },
     {
       "name": "Lounges",
@@ -67,7 +66,7 @@
       "name": "Calvium",
       "client": "Calvium",
       "role": "Full Stack Development",
-      "desc": "Calvium wanted to refresh their site, emphasizing their brand, and further allow them to tell the stories of our clients in a clean, clear, and classy way. Myself and Ben Hostler worked with the internal team to develop a site that could meet those requirements, and give users a high-end experience Calvium delivers though its own ground-breaking work.",
+      "desc": "Calvium wanted to refresh their site, emphasizing their brand, and further allow them to tell the stories of our clients in a clean, clear, and classy way. Myself and Ben Hostler worked with the internal team to develop a site that could meet those requirements, and give users a high-end experience Calvium delivers though its own ground-breaking work."
     }
   ]
 }

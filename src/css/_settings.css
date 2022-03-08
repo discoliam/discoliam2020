@@ -42,7 +42,7 @@
   --base-border: 1px solid rgba($dark, 0.2);
 
   /* Other Sizes */
-  --body-radius: 3px;
+  --border-radius: 4px;
   --base-spacing-external: span(1 of 16);
   --base-spacing-internal: 20px;
 

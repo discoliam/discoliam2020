@@ -40,6 +40,7 @@ body.menu-is-open{
     width: 100%;
     position: relative;
     z-index: 2;
+    border-radius: var(--border-radius);
   }
   &::before{
     content: "";
@@ -51,12 +52,12 @@ body.menu-is-open{
     transform: rotate(-4deg) translate(-10%, 5%);
     background-color: var(--alt);
     z-index: 0;
+    border-radius: var(--border-radius);
   }
 }
 
 
 /* Heading Anchors */
-
 .heading-link {
   position: absolute;
   top: 50%;
@@ -66,12 +67,15 @@ body.menu-is-open{
   transition: opacity 180ms linear;
   opacity: 0;
   font-size: 80%;
+
   &::after{
     display: none;
   }
+
   &:hover, &:focus{
     color: var(--alt);
   }
+
 }
 
 h1, h2, h3, h4, h5, h6 {
