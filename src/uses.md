@@ -43,7 +43,7 @@ Keyboard wise I'm using the Apple Magic Keyboard with Numeric Keypad. [Space Gra
 ## Desk
 During the winter of 2021/22, I decided to build a desk. The wood and hairpin legs were purchased from [Leeds Wood Recycling](https://www.leedswoodrecycling.co.uk/) and I then spent about 20 hours sanding off the oil and concrete on them. It's pretty wonky, has a definite curve to it, but I'm super happy with how it came out. I'm planning on building another in the summer, and this one will get donated to my father.
 
-To protect my handy work I'm using a [Dotgrid Black deskmat](https://www.dotgrid.co/products/vegan-leather-desk-mat-black), mostly as it had a good review from (David Darnes)[https://setups.co/posts/david-darnes].
+To protect my handy work I'm using a [Dotgrid Black deskmat](https://www.dotgrid.co/products/vegan-leather-desk-mat-black), mostly as it had a good review from [David Darnes](https://setups.co/posts/david-darnes).
 
 ##  Audio
 
