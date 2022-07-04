@@ -12,13 +12,13 @@
 
     {% include 'header' %}
 
-    <main class="container is-main-body">
-      <div class="grid-col">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include 'footer' %}
-
+    <div asscroll-container>
+      <main>
+        <div class="container">
+          {{ content }}
+        </div>
+      </main>
+      {% include 'footer' %}
+    </div>
   </body>
 </html>

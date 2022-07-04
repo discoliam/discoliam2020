@@ -10,6 +10,7 @@ body.menu-is-open{
   gap: var(--gap);
   padding-bottom: 85px;
   overflow: hidden;
+  
   & .grid-col{
     grid-area: col1;
   }

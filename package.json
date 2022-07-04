@@ -35,6 +35,7 @@
     "yargs": "^17.4.0"
   },
   "dependencies": {
+    "@ashthornton/asscroll": "^2.0.7",
     "normalize.css": "^8.0.1",
     "smoothscroll-polyfill": "^0.4.4"
   }
